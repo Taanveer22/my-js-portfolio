@@ -299,7 +299,7 @@ header ul a{
 
 .card h1{
   position: absolute;
-  margin: 0;
+  margin-bottom: 5px;
   bottom: 40%;
   left: 5%;
   font-size: 25px;
@@ -308,7 +308,6 @@ header ul a{
 }
 
 .card p{
-  margin-top: 5px;
   position: absolute;
   bottom: 3%;
   left: 5%;
@@ -627,6 +626,7 @@ header ul a{
 }
 
 .social-box{
+  margin-top: 10px;
   display: flex;
   flex-direction: column;
   gap: 25px;
@@ -682,4 +682,23 @@ header ul a{
 .contact-box button:hover{
   box-shadow: 0 0 15px #72a1de81;
   opacity: 0.7;
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 70px;
+  z-index: 999;
+  background-color: rgba(255, 255, 255, 0.128);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.356);
+}
+
+footer h1{
+  font-size: 30px;
 }
