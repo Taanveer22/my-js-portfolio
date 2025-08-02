@@ -308,6 +308,7 @@ header ul a{
 }
 
 .card p{
+  margin-top: 5px;
   position: absolute;
   bottom: 3%;
   left: 5%;
