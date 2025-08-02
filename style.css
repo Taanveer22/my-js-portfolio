@@ -299,7 +299,7 @@ header ul a{
 
 .card h1{
   position: absolute;
-  margin-bottom: 5px;
+  margin: 0;
   bottom: 40%;
   left: 5%;
   font-size: 25px;
@@ -626,7 +626,6 @@ header ul a{
 }
 
 .social-box{
-  margin-top: 10px;
   display: flex;
   flex-direction: column;
   gap: 25px;
